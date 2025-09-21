@@ -3,164 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenBite - Contact & Feedback</title>
-    <meta name="description" content="Get in touch with GreenBite. We'd love to hear your feedback and questions.">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="manifest" href="manifest.json">
+    <title>GreenBite - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="logo">GreenBite</a>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="recipes.html" class="nav-link">Recipes</a></li>
-                    <li><a href="calculator.html" class="nav-link">Calculator</a></li>
-                    <li><a href="workout.html" class="nav-link">Workout</a></li>
-                    <li><a href="mindfulness.html" class="nav-link">Mindfulness</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-                <div class="hamburger">☰</div>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container">
-        <h1>Contact & Feedback</h1>
-        <p>We'd love to hear from you! Send us your questions, feedback, or suggestions.</p>
-
-        <div class="contact-container">
-            <div class="contact-grid">
-                <div class="contact-form">
-                    <h3>Send us a Message</h3>
-                    <form id="feedback-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                            <div class="error-message" id="name-error">Please enter your name</div>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                            <div class="error-message" id="email-error">Please enter a valid email address</div>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                            <div class="error-message" id="message-error">Please enter your message</div>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                    <div class="success-message" id="success-message">
-                        Thank you for your message! We'll get back to you soon.
+    <div class="container">
+        <header>
+            <div class="logo">GreenBite</div>
+            <p class="tagline">Healthy food for a sustainable future</p>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2>Send us a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your full name">
                     </div>
-                </div>
-
-            <!-- Map Section -->
-        <section class="map-section">
-            <div class="container">
-                <h3>Visit Us</h3>
-                <div class="map-container">
-                    <!-- Google Maps Embed -->
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19880.366366332!2d-0.136599!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjYiTiAwwrAwOCcxMi4wIlc!5e0!3m2!1sen!2suk!4v1234567890" 
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
                     
-                    <!-- Fallback for iframe blocking -->   
-                    <div class="map-fallback">
-                        <p>📍 <B>GreenBite Hub Headquarters</B></p>
-                        <p>123 GreenBite Street</p>
-                        <p>London, UK</p>
-                        <p>📞 +44 123 456 7890</p>
-                        <p>✉️ info@greenbitehub.com</p>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email address">
                     </div>
-                </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="How can we help you?"></textarea>
+                    </div>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
-        </section>
-
+            
+            <div class="section">
+                <h2>Visit Us</h2>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> <span>A4U SOHO, Buckingham Street, Westminster, London</span></li>
+                    <li><i class="fas fa-phone"></i> <span>+44 20 1234 5678</span></li>
+                    <li><i class="fas fa-envelope"></i> <span>info@greenbite.com</span></li>
+                    <li><i class="fas fa-clock"></i> <span>Mon-Fri: 9am-6pm, Sat: 10am-4pm</span></li>
+                </ul>
                 
-            <div class="faq-section">
-                <h3>Frequently Asked Questions</h3>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Are the recipes suitable for beginners?
-                        <span class="faq-toggle"></span>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt fa-3x"></i>
+                        <span style="margin-left: 10px;">View larger map</span>
                     </div>
-                    <div class="faq-answer">
-                        Absolutely! Our recipes are designed to be simple, easy to follow, and require minimal cooking experience.
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Do I need a gym membership for the workouts?
-                        <span class="faq-toggle"></span>
-                    </div>
-                    <div class="faq-answer">
-                        No! Our workout generator focuses on bodyweight exercises and routines you can do at home with minimal or no equipment.
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        How is my data used?
-                        <span class="faq-toggle"></span>
-                    </div>
-                    <div class="faq-answer">
-                        We value your privacy. Your email for the newsletter and any feedback are stored locally on your device only (using localStorage) and are not sent to any server. This project is for demonstration purposes.
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Can I contribute a recipe?
-                        <span class="faq-toggle"></span>
-                    </div>
-                    <div class="faq-answer">
-                        We're not accepting external submissions right now, but we'd love to hear your ideas! Send us your feedback.
+                    <div class="map-links">
+                        <a href="#">Google Map Data</a>
+                        <a href="#">Terms</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>GreenBite</h3>
-                    <p>Nourish Your Body. Energize Your Life.</p>
+            
+            <div class="section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <div class="faq-question"><i class="fas fa-question-circle"></i> What are your delivery hours?</div>
+                    <p class="faq-answer">We deliver from 11am to 9pm daily, with last orders accepted at 8:30pm.</p>
                 </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="recipes.html">Recipes</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                
+                <div class="faq-item">
+                    <div class="faq-question"><i class="fas fa-question-circle"></i> Do you offer vegan options?</div>
+                    <p class="faq-answer">Yes! We have a wide variety of vegan and plant-based options clearly marked on our menu.</p>
                 </div>
-                <div class="footer-section">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe for weekly tips</p>
-                    <form class="newsletter-form">
-                        <input type="email" class="newsletter-input" placeholder="Your email" required>
-                        <button type="submit" class="btn">Subscribe</button>
-                    </form>
+                
+                <div class="faq-item">
+                    <div class="faq-question"><i class="fas fa-question-circle"></i> How can I track my order?</div>
+                    <p class="faq-answer">Once your order is confirmed, you'll receive a tracking link via SMS and email.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question"><i class="fas fa-question-circle"></i> Do you cater for events?</div>
+                    <p class="faq-answer">Absolutely! Contact our events team at events@greenbite.com for custom orders.</p>
                 </div>
             </div>
         </div>
-    </footer>
-
-    <script src="js/script.js"></script>
-    <script src="js/contact.js"></script>
+        
+        <div class="footer">
+            <p>&copy; 2023 GreenBite. All rights reserved. | <a href="https://saajith2004.github.io" style="color: #2ecc71;">saajith2004.github.io</a></p>
+        </div>
+    </div>
 </body>
 </html>
