@@ -130,7 +130,15 @@ class ContactForm {
     }
 }
 
-// Initialize contact form
 document.addEventListener('DOMContentLoaded', () => {
     new ContactForm();
+});
+
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const item = question.parentElement;
+        item.classList.toggle('active');
+        question.querySelector('.faq-toggle').textContent = 
+            item.classList.contains('active') ? '−' : '+';
+    });
 });
