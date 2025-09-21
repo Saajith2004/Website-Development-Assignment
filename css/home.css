@@ -73,49 +73,9 @@
     min-height: 2rem;
 }
 
-
-
-.floating-elements {
-    position: relative;
-}
-
-.floating-icon {
-    position: absolute;
-    font-size: 3rem;
-    animation: float 3s ease-in-out infinite;
-}
-
-.floating-icon:nth-child(1) {
-    top: -50px;
-    left: 20%;
-    animation-delay: 0s;
-}
-
-.floating-icon:nth-child(2) {
-    top: -30px;
-    left: 60%;
-    animation-delay: 1s;
-}
-
-.floating-icon:nth-child(3) {
-    top: -70px;
-    left: 40%;
-    animation-delay: 2s;
-}
-.floating-icon:nth-child(4) {
-    top: -40px;
-    left: 80%;
-    animation-delay: 1.5s;
-}
-.floating-icon:nth-child(5) {
-    top: -60px;
-    left: 5%;
-    animation-delay: 2.5s;
-}
-
 .features {
     padding: 5rem 0;
-    background: #f8f9fa;
+    background: beige;
 }
 
 .section-title {
@@ -162,7 +122,7 @@
 
 .daily-tip {
     padding: 3rem 0;
-    background: white;
+    background: beige;
 }
 
 .tip-card {
