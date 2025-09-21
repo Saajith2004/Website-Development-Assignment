@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Workout Generator</title>
+    <meta name="description" content="Generate personalized workout plans based on your preferences.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/workout.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">GreenBite</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+                    <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                    <li><a href="workout.html" class="nav-link">Workout</a></li>
+                    <li><a href="mindfulness.html" class="nav-link">Mindfulness</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Workout Generator</h1>
+        <p>Get personalized workout plans based on your preferences</p>
+
+        <div class="workout-container">
+            <form id="workout-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="body-part">Body Part</label>
+                        <select id="body-part" required>
+                            <option value="">Select Body Part</option>
+                            <option value="Arms">💪 Arms</option>
+                            <option value="Legs">🏋️ Legs</option>
+                            <option value="Core">🧘 Core</option>
+                            <option value="Full Body">💪🏋️‍♀️ Full Body</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="equipment">Equipment</label>
+                        <select id="equipment" required>
+                            <option value="">Select Equipment</option>
+                            <option value="None">No Equipment</option>
+                            <option value="Dumbbells">🏋️ Dumbbells</option>
+                            <option value="Resistance Bands">🏋️‍♀️ Resistance Bands</option>
+                            <option value="Yoga Mat">🧘 Yoga Mat</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Generate Workout</button>
+            </form>
+
+            <div id="no-workouts" class="no-workouts">
+                <h3>No workouts found for your selection</h3>
+                <p>Try choosing different body part or equipment options.</p>
+            </div>
+
+            <div id="workout-result" class="workout-result">
+                <div class="workout-card">
+                    <h3 class="exercise-name" id="exercise-name">Exercise Name</h3>
+                    <img class="workout-image" id="workout-image" src="" alt="Workout demonstration">
+                    <p class="exercise-description" id="exercise-description">Exercise description will appear here.</p>
+                    
+                    <div class="workout-meta">
+                        <div class="meta-item">
+                            <span class="meta-icon">💪</span>
+                            <span id="workout-bodypart">Body Part</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">🏋️</span>
+                            <span id="workout-equipment">Equipment</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">⏱️</span>
+                            <span id="workout-duration">Duration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="generate-again">
+                    <button onclick="generateNewWorkout()" class="btn">Generate Another Workout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenBite</h3>
+                    <p>Nourish Your Body. Energize Your Life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for weekly tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/workout.js"></script>
+</body>
+</html>

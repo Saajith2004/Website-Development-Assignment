@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Healthy Recipes</title>
+    <meta name="description" content="Discover healthy and delicious recipes to nourish your body.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/recipes.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
++    <!-- Header -->
+     <header>
+         <div class="container">
+             <nav>
+                 <a href="index.html" class="logo">GreenBite</a>
+                 <ul class="nav-menu">
+                     <li><a href="index.html" class="nav-link">Home</a></li>
+                     <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+                     <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                     <li><a href="workout.html" class="nav-link">Workout</a></li>
+                     <li><a href="mindfulness.html" class="nav-link">Mindfulness</a></li>
+                     <li><a href="contact.html" class="nav-link">Contact</a></li>
+                 </ul>
+                 <div class="hamburger">☰</div>
+             </nav>
+         </div>
+     </header>
+
+     <main class="container">
+         <h1>Healthy Recipes</h1>
+         <p>Discover delicious and nutritious meals to fuel your body</p>
+
+         <div class="search-filter">
+             <input type="text" id="search-input" class="search-input" placeholder="Search recipes...">
+             <select id="category-filter" class="filter-select">
+                 <option value="">All Categories</option>
+                 <option value="Breakfast">Breakfast</option>
+                 <option value="Lunch">Lunch</option>
+                 <option value="Dinner">Dinner</option>
+                 <option value="Snack">Snack</option>
+             </select>
+         </div>
+
+         <div id="recipes-container" class="recipes-container">
+         </div>
+     </main>
+    
+     <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenBite</h3>
+                    <p>Nourish Your Body. Energize Your Life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for weekly tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/recipes.js"></script>
+</body>
+</html>

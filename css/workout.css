@@ -1,0 +1,116 @@
+ .workout-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .form-group select {
+            padding: 0.8rem;
+            border: 1px solid var(--light-gray);
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+        }
+
+        .workout-result {
+            display: none;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .workout-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 1rem;
+        }
+
+        .workout-image {
+            width: 100%;
+            max-width: 400px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            margin: 1rem auto;
+            display: block;
+            border: 4px solid white;
+            box-shadow: var(--box-shadow);
+        }
+
+        .exercise-name {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .exercise-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .workout-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #777;
+            background: white;
+            padding: 1rem;
+            border-radius: var(--border-radius);
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-icon {
+            font-size: 1.2rem;
+        }
+
+        .generate-again {
+            margin-top: 2rem;
+        }
+
+        .no-workouts {
+            text-align: center;
+            color: #666;
+            padding: 2rem;
+            background: var(--light-gray);
+            border-radius: var(--border-radius);
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .workout-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .workout-image {
+                height: 200px;
+            }
+        }

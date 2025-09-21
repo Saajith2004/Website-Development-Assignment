@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Jumping Jacks",
+    "description": "A full-body cardiovascular exercise. Stand with feet together and arms at sides, then jump while raising arms and spreading legs.",
+    "bodyPart": "Full Body",
+    "equipment": "None",
+    "image": "images/workouts/jumping-jacks.jpg",
+    "duration": 60
+  },
+  {
+    "id": 2,
+    "name": "Push-Ups",
+    "description": "A classic upper body exercise. Keep your body in a straight line from head to heels, lower your chest to the floor, then push back up.",
+    "bodyPart": "Arms",
+    "equipment": "None",
+    "image": "images/workouts/push-ups.jpg",
+    "duration": 45
+  },
+  {
+    "id": 3,
+    "name": "Bodyweight Squats",
+    "description": "A fundamental lower body movement. Lower your hips back and down as if sitting in a chair, keeping your chest up and knees behind toes.",
+    "bodyPart": "Legs",
+    "equipment": "None",
+    "image": "images/workouts/squats.jpg",
+    "duration": 60
+  },
+  {
+    "id": 4,
+    "name": "Dumbbell Bicep Curls",
+    "description": "Hold a dumbbell in each hand. Keeping your elbows close to your torso, curl the weights up towards your shoulders, then slowly lower.",
+    "bodyPart": "Arms",
+    "equipment": "Dumbbells",
+    "image": "images/workouts/bicep-curls.png",
+    "duration": 45
+  },
+  {
+    "id": 5,
+    "name": "Dumbbell Shoulder Press",
+    "description": "Sit or stand with dumbbells at shoulder level. Press upward until arms are fully extended, then lower back down.",
+    "bodyPart": "Arms",
+    "equipment": "Dumbbells",
+    "image": "images/workouts/shoulder-press.png",
+    "duration": 45
+  },
+  {
+    "id": 6,
+    "name": "Lunges",
+    "description": "Step forward with one leg, lowering your hips until both knees are bent at a 90-degree angle. Push back to the start. Alternate legs.",
+    "bodyPart": "Legs",
+    "equipment": "None",
+    "image": "images/workouts/lunges.png",
+    "duration": 60
+  },
+  {
+    "id": 7,
+    "name": "Dumbbell Lunges",
+    "description": "Hold dumbbells in each hand while performing lunges for added resistance and strength building.",
+    "bodyPart": "Legs",
+    "equipment": "Dumbbells",
+    "image": "images/workouts/dumbbell-lunges.png",
+    "duration": 60
+  },
+  {
+    "id": 8,
+    "name": "Plank",
+    "description": "Hold a push-up position with your weight on your forearms and toes. Engage your core and keep your body in a straight line.",
+    "bodyPart": "Core",
+    "equipment": "None",
+    "image": "images/workouts/plank.jpg",
+    "duration": 45
+  },
+  {
+    "id": 9,
+    "name": "Russian Twists",
+    "description": "Sit on the floor, lean back slightly, and twist your torso from side to side while holding a weight or without.",
+    "bodyPart": "Core",
+    "equipment": "None",
+    "image": "images/workouts/russian-twists.jpg",
+    "duration": 45
+  },
+  {
+    "id": 10,
+    "name": "Dumbbell Russian Twists",
+    "description": "Perform Russian twists while holding a dumbbell for increased core engagement and strength.",
+    "bodyPart": "Core",
+    "equipment": "Dumbbells",
+    "image": "images/workouts/dumbbell-twists.jpeg",
+    "duration": 45
+  },
+  {
+    "id": 11,
+    "name": "Burpees",
+    "description": "A full-body exercise: squat down, kick back into plank, do a push-up, return to squat, and jump up.",
+    "bodyPart": "Full Body",
+    "equipment": "None",
+    "image": "images/workouts/burpees.jpg",
+    "duration": 60
+  },
+  {
+    "id": 12,
+    "name": "Mountain Climbers",
+    "description": "Start in plank position and alternate bringing knees to chest in a running motion.",
+    "bodyPart": "Full Body",
+    "equipment": "None",
+    "image": "images/workouts/mountain-climbers.jpg",
+    "duration": 60
+  }
+]

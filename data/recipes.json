@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "title": "Avocado & Berry Breakfast Bowl",
+    "image": "images/recipes/breakfast-bowl.jpg",
+    "description": "A powerful and antioxidant-rich start to your day, ready in 5 minutes.",
+    "category": "Breakfast",
+    "ingredients": [
+      "1 ripe banana",
+      "1/2 cup frozen mixed berries",
+      "1/4 cup rolled oats",
+      "1/2 cup almond milk",
+      "1/2 avocado, sliced",
+      "1 tbsp chia seeds",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "In a blender, combine the banana, frozen berries, oats, and almond milk. Blend until smooth.",
+      "Pour the smoothie into a bowl.",
+      "Top with sliced avocado, a sprinkle of chia seeds, and a drizzle of honey if desired.",
+      "Enjoy immediately!"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": "10g",
+      "carbs": "52g",
+      "fat": "22g"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Quinoa Salad with Lemon-Herb Dressing",
+    "image": "images/recipes/quinoa-salad.jpg",
+    "description": "A light, protein-packed salad perfect for lunch. Gluten-free and easily customizable.",
+    "category": "Lunch",
+    "ingredients": [
+      "1 cup cooked quinoa, cooled",
+      "1 cucumber, diced",
+      "1 cup cherry tomatoes, halved",
+      "1/4 red onion, finely diced",
+      "1/4 cup fresh parsley, chopped",
+      "2 tbsp olive oil",
+      "Juice of 1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a large bowl, combine the cooled quinoa, cucumber, tomatoes, red onion, and parsley.",
+      "In a small jar, shake together the olive oil, lemon juice, salt, and pepper.",
+      "Pour the dressing over the salad and toss to combine.",
+      "Refrigerate for at least 30 minutes before serving to allow the flavors to meld."
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": "8g",
+      "carbs": "45g",
+      "fat": "12g"
+    }
+  },
+  {
+    "id": 3,
+    "title": "One-Pan Lemon Herb Salmon & Asparagus",
+    "image": "images/recipes/salmon-asparagus.jpg",
+    "description": "An elegant yet simple dinner that's full of flavor and healthy omega-3s.",
+    "category": "Dinner",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 bunch asparagus, woody ends trimmed",
+      "2 tbsp olive oil",
+      "2 cloves garlic, minced",
+      "1 lemon, thinly sliced",
+      "1 tsp dried dill (or 1 tbsp fresh)",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "On a baking sheet, toss asparagus with 1 tbsp olive oil, salt, and pepper.",
+      "Place salmon fillets on the same sheet. Drizzle with remaining oil. Rub with garlic, dill, salt, and pepper. Top with lemon slices.",
+      "Bake for 12-15 minutes, or until salmon is cooked through and flakes easily.",
+      "Serve immediately, garnished with extra fresh herbs."
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": "35g",
+      "carbs": "8g",
+      "fat": "24g"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Apple and Peanut Butter",
+    "image": "images/recipes/apple-peanut-butter.jpg",
+    "description": "A quick and satisfying snack that's perfect for any time of day.",
+    "category": "Snack",
+    "ingredients": [
+      "1 apple, sliced",
+      "2 tbsp peanut butter",
+      "1 tbsp honey (optional)",
+      "1 tbsp chia seeds (optional)"
+    ],
+    "steps": [
+      "Core and slice the apple.",
+      "Spread peanut butter on each slice.",
+      "Drizzle with honey and sprinkle with chia seeds if desired.",
+      "Enjoy immediately!"
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": "8g",
+      "carbs": "30g",
+      "fat": "12g"
+    }
+  }
+  ,
+  {"id": 5,
+    "title": "Greek Yogurt with Honey and Nuts",
+    "image": "images/recipes/greek-yogurt.jpg",
+    "description": "A creamy and protein-packed snack that's both delicious and nutritious.",
+    "category": "Snack",
+    "ingredients": [
+      "1 cup Greek yogurt",
+      "1 tbsp honey",
+      "1/4 cup mixed nuts (almonds, walnuts, pecans)"
+    ],
+    "steps": [
+      "Spoon the Greek yogurt into a bowl.",
+      "Drizzle with honey.",
+      "Top with mixed nuts.",
+      "Enjoy immediately!"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": "20g",
+      "carbs": "25g",
+      "fat": "15g"
+    }
+  }
+  ,
+  {
+    "id": 6,
+    "title": "Veggie Stir-Fry with Tofu",
+    "image": "images/recipes/veggie-stirfry.jpg",
+    "description": "A quick and easy stir-fry packed with colorful vegetables and protein-rich tofu.",
+    "category": "Dinner",
+    "ingredients": [
+      "1 block firm tofu, drained and cubed",
+      "2 cups mixed vegetables (bell peppers, broccoli, snap peas, carrots)",
+      "2 tbsp soy sauce or tamari",
+      "1 tbsp sesame oil",
+      "2 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "1 tbsp olive oil",
+      "Cooked rice or noodles for serving"
+    ],
+    "steps": [
+      "Heat olive oil in a large skillet or wok over medium-high heat.",
+      "Add the cubed tofu and cook until golden brown on all sides. Remove from the skillet and set aside.",
+      "In the same skillet, add sesame oil, garlic, and ginger. Sauté for 1-2 minutes until fragrant.",
+      "Add the mixed vegetables and stir-fry for 5-7 minutes until tender-crisp.",
+      "Return the tofu to the skillet and pour in the soy sauce. Toss everything together and cook for another 2 minutes.",
+      "Serve over cooked rice or noodles."
+    ],
+    "nutrition": {
+      "calories": 450,
+      "protein": "25g",
+      "carbs": "40g",
+      "fat": "18g"
+    }
+  }
+]

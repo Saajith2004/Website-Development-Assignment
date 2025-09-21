@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Home</title>
+    <meta name="description" content="Your partner for healthy living through balanced meals, exercise, and mindfulness.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css"> 
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">GreenBite</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+                    <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                    <li><a href="workout.html" class="nav-link">Workout</a></li>
+                    <li><a href="mindfulness.html" class="nav-link">Mindfulness</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Nourish Your Body.</span>
+                    <span class="title-line">Energize Your Life.</span>
+                </h1>
+                <p class="hero-subtitle">Your journey to wellness starts with small, sustainable changes</p>
+                <div class="hero-buttons">
+                    <a href="recipes.html" class="btn btn-primary">Explore Recipes</a>
+                    <a href="workout.html" class="btn btn-secondary">Start Workout</a>
+                </div>
+                <div class="rotating-text">
+                    <span id="rotating-text">Healthy eating made simple</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-elements">
+                    <div class="floating-icon">🥗</div>
+                    <div class="floating-icon">💪</div>
+                    <div class="floating-icon">🧘</div>
+                    <div class="floating-icon">📊</div>
+                    <div class="floating-icon">🍽️</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose GreenBite?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🍎</div>
+                    <h3>Healthy Recipes</h3>
+                    <p>Discover delicious, nutrient-packed meals that are easy to make and good for you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Nutrition Calculator</h3>
+                    <p>Track your calories and macros with our easy-to-use calculator.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏋️</div>
+                    <h3>Workout Plans</h3>
+                    <p>Personalized exercises for all fitness levels, no equipment needed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Mindfulness</h3>
+                    <p>Guided meditation and breathing exercises for mental wellness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="daily-tip">
+        <div class="container">
+            <div class="tip-card">
+                <div class="tip-header">
+                    <span class="tip-icon">💡</span>
+                    <h3>Daily Health Tip</h3>
+                    <span class="tip-icon">💡</span>
+                </div>
+                <p id="daily-tip-text">Loading your tip for today...</p>
+                <div class="tip-footer">
+                    <small>Refreshes daily at midnight</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Healthy Recipes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="10000">0</span>
+                    <span class="stat-label">Active Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="95">0</span>
+                    <span class="stat-label">Success Rate</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="24">0</span>
+                    <span class="stat-label">Workout Plans</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenBite</h3>
+                    <p>Nourish Your Body. Energize Your Life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for weekly tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="js/script.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Mindfulness</title>
+    <meta name="description" content="Practice mindfulness with guided breathing exercises and meditation timers.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mindfulness.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">GreenBite</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+                    <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                    <li><a href="workout.html" class="nav-link">Workout</a></li>
+                    <li><a href="mindfulness.html" class="nav-link">Mindfulness</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Mindfulness & Meditation</h1>
+        <p>Take a moment to breathe and find your center</p>
+
+        <div class="mindfulness-container">
+            <div class="breathing-section">
+                <div class="breathing-animation">
+                    <div class="breathing-circle" id="breathing-circle"></div>
+                </div>
+                <div class="breathing-controls">
+                    <div class="control-group">
+                        <h3>Guided Breathing</h3>
+                        <p>Follow the animation: Inhale as it expands, exhale as it contracts.</p>
+                        <button id="start-breathing" class="btn">Start Breathing</button>
+                        <button id="stop-breathing" class="btn" style="background: #666;">Stop</button>
+                    </div>
+                    <div class="control-group">
+                        <h4>Breathing Pattern</h4>
+                        <p>Inhale: 4 seconds | Hold: 2 seconds | Exhale: 6 seconds</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timer-section">
+                <h3>Meditation Timer</h3>
+                <div class="timer-display" id="meditation-timer">10:00</div>
+                <div class="timer-controls">
+                    <button id="start-meditation" class="btn">Start</button>
+                    <button id="pause-meditation" class="btn">Pause</button>
+                    <button id="reset-meditation" class="btn">Reset</button>
+                </div>
+                <div class="timer-presets">
+                    <button class="preset-btn" data-time="300">5 min</button>
+                    <button class="preset-btn" data-time="600">10 min</button>
+                    <button class="preset-btn" data-time="900">15 min</button>
+                    <button class="preset-btn" data-time="1800">30 min</button>
+                </div>
+            </div>
+
+            <div class="sounds-section">
+                <h3>Ambient Sounds</h3>
+                <div class="sound-controls">
+                <div class="sound-controls">
+                    <button class="sound-btn" data-sound="rain">🌧️ Rain</button>
+                    <button class="sound-btn" data-sound="forest">🌲 Forest</button>
+                    <button class="sound-btn" data-sound="waves">🌊 Ocean</button>
+                    <button class="sound-btn" data-sound="ocean">🌅 Ocean</button>
+                </div>
+            </div>
+            <div class="session-tracker">
+                <h4>Today's Sessions: <span id="session-count">0</span></h4>
+                <p>Total Sessions This Week: <span id="weekly-sessions">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenBite</h3>
+                    <p>Nourish Your Body. Energize Your Life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for weekly tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/mindfulness.js"></script>
+</body>
+</html>
