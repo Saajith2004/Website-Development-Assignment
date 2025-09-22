@@ -1,4 +1,4 @@
-/* 1. Global Styles & Variables */
+
 :root {
     --primary-color: #4CAF50;
     --secondary-color: #FF7B54;
@@ -54,13 +54,16 @@ img {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.btn-primary {
+    background-color: #3a7e4c;
+    border-color: #3a7e4c;
+}
 
 .btn:hover {
     background: #3d8b40;
     transform: translateY(-2px);
 }
 
-/* 2. Header & Navigation */
 header {
     background: white;
     box-shadow: var(--box-shadow);
@@ -105,7 +108,6 @@ nav {
     font-size: 1.5rem;
 }
 
-/* 3. Footer */
 footer {
     background: var(--text-color);
     color: white;
@@ -138,7 +140,6 @@ footer {
     border-radius: var(--border-radius);
 }
 
-/* 4. Utility Classes */
 .text-center {
     text-align: center;
 }
@@ -151,7 +152,6 @@ footer {
     display: none !important;
 }
 
-/* 5. Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
         display: block;
@@ -182,7 +182,6 @@ footer {
         flex-direction: column;
     }
 }
-/* Map Section Styles */
 .map-section {
     padding: 3rem 0;
     background: #f9f9f9;
@@ -214,13 +213,11 @@ footer {
     border-radius: 10px;
 }
 
-/* If iframe is blocked, show fallback */
 .map-container:has(iframe:not([src])) .map-fallback,
 .map-container:not(:has(iframe)) .map-fallback {
     display: block;
 }
 
-/* Responsive Map */
 @media (max-width: 768px) {
     .map-container iframe {
         height: 300px;

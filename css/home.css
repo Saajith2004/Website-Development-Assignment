@@ -41,11 +41,11 @@
 }
 
 .btn-primary {
-    background: white;
-    color: #4CAF50;
-    padding: 15px 30px;
-    font-weight: 600;
-    border: 2px solid white;
+    background-color: #3a7e4c;
+    border: 1px solid #3a7e4c; 
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .btn-secondary {
